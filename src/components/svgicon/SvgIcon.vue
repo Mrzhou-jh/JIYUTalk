@@ -28,8 +28,8 @@ export default {
   animation: loading-animation 1s infinite linear;
 }
 .svgicon {
-  height: 2em;
-  width: 2em;
+  height: 1.8em;
+  width: 1.8em;
   vertical-align: middle;
   margin-right: 0.2em;
   margin-top: 3px;
