@@ -1,5 +1,5 @@
 <template>
-  <div class="tabbar-item">
+  <div class="tabbar-item" @click="$emit('click')">
     <div class="setimg">
         <slot name="setimg">图片</slot>
     </div>
@@ -19,6 +19,6 @@ export default {
   justify-content: center;
   align-content: center;
   align-items: center;
-  font-size:12px
+  font-size:12px;
 }
 </style>

@@ -21,7 +21,7 @@
         <i id="showPassworld"></i>
       </div>
     </div>
-    <button class="loginRegistBtn">{{title}}</button>
+    <a href="../../pages/index/index.js" class="loginRegistBtn" @click="tzh">{{title}}</a>
   </div>
 </template>
 <script>
@@ -36,6 +36,11 @@ export default {
   computed: {
     title() {
       return this.isRegis ? "注册" : "登录";
+    }
+  },
+  methods: {
+    tzh() {
+      console.log("点击了登入");
     }
   }
 };
@@ -102,11 +107,11 @@ input {
   color: $font-cloro1;
   font-weight: 700;
   margin: 40px auto 0;
+  text-align: center;
+  line-height: 48px;
 }
-button {
-  border: none;
-  background: none;
-  margin: 0 auto;
+a {
+  text-decoration: none;
 }
 #showPassworld {
   display: inline-block;
