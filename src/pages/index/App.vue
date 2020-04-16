@@ -4,8 +4,7 @@
     <head-nav-bar>
       <base-user-img slot="nav-bar-left" url="/public/logo.png"></base-user-img>
     </head-nav-bar>
-    <LoginRegistered></LoginRegistered>
-    <!-- <router-view></router-view> -->
+   
   </div>
 </template>
 <script>
